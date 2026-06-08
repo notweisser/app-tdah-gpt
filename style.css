@@ -8,9 +8,7 @@
   --coral:#F28B6B;
   --lav:#B7A6F6;
 
-  --white:#FFFFFF;
-}
-
+  --white:#FFFFFF;}
 *{
   box-sizing:border-box;
 }
@@ -21,18 +19,11 @@ body{
   color:var(--ink);
 
   background:
-  radial-gradient(
-    circle at top,
-    rgba(183,166,246,.18),
-    transparent 35%
-  ),
-  linear-gradient(
-    180deg,
-    var(--cream),
-    var(--cream-dark)
+  radial-gradient(circle at top, rgba(183,166,246,.18),  transparent 35% 
+                 ),linear-gradient(180deg, var(--cream),
+                                   var(--cream-dark)
   );
-
-  min-height:100vh;
+ min-height:100vh;
 }
 
 .app{
