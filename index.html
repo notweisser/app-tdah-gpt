@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FOCO — Small Steps. Big Progress.</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="app">
+<header class="header">
+<h1>FOCO</h1>
+<p>Small Steps. Big Progress.</p>
+</header>
+
+<section id="focus" class="screen active">
+<div class="card hero">
+<div class="nova"></div>
+<h2>Good morning, Sebastian</h2>
+<div class="meta">Level 4 · 🔥 5 Day Streak</div>
+<div class="xp"><div class="xp-fill"></div></div>
+<p class="quote">Today we move one step at a time.</p>
+</div>
+
+<div class="card">
+<div class="label">YOUR NEXT STEP</div>
+<h3>Review Design Proposal</h3>
+<p>First action: Open the document</p>
+<button>Start Now</button>
+<p class="muted">2 small steps are waiting.</p>
+</div>
+
+<div class="card">
+<h3>Garden Preview</h3>
+<div class="garden">🌱 🌿 🌸</div>
+</div>
+</section>
+
+<section id="progress" class="screen">
+<div class="card">
+<h2>Nova Explorer</h2>
+<div class="garden large">🌱 🌿 🌳 🌸</div>
+<p>425 XP · 28 Tasks Completed</p>
+</div>
+</section>
+
+<section id="voice" class="screen">
+<div class="card">
+<h2>Voice Capture</h2>
+<p>"Call doctor tomorrow."</p>
+<p>Task created.</p>
+<p>First step: Find phone number.</p>
+</div>
+</section>
+
+<section id="achievements" class="screen">
+<div class="card">
+<h2>Achievements</h2>
+<p>✓ First Leaf</p>
+<p>✓ Morning Dew</p>
+<p>🔒 Focus Master</p>
+</div>
+</section>
+
+<section id="profile" class="screen">
+<div class="card">
+<h2>My Focus</h2>
+<p>Nova ✓</p>
+<p>Moss 🔒</p>
+<p>Ember 🔒</p>
+<p>Luna 🔒</p>
+</div>
+</section>
+
+<nav class="nav">
+<button onclick="showScreen('focus')">Focus</button>
+<button onclick="showScreen('progress')">Progress</button>
+<button onclick="showScreen('voice')">Voice</button>
+<button onclick="showScreen('achievements')">Achievements</button>
+<button onclick="showScreen('profile')">Profile</button>
+</nav>
+<script src="script.js"></script>
+</div>
+</body>
+</html>
